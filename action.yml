@@ -1,4 +1,4 @@
-name: 'Setup Terragrunt'
+name: "Setup Terragrunt"
 description: Setup Terragrunt CLI on GitHub Actions runners
 inputs:
   terragrunt_version:
@@ -10,8 +10,8 @@ inputs:
     required: false
     default: ${{ github.token }}
 runs:
-  using: node16
+  using: node12
   main: dist/index.js
 branding:
-  icon: 'terminal'
-  color: 'purple'
+  icon: "terminal"
+  color: "purple"
