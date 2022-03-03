@@ -1,0 +1,17 @@
+name: 'Setup Terragrunt'
+description: Setup Terragrunt CLI on GitHub Actions runners
+inputs:
+  terragrunt_version:
+    description: Version of Terragrunt CLI to install
+    required: false
+    default: latest
+  github_token:
+    description: GitHub token - used when for getting the release information from Github API
+    required: false
+    default: ${{ github.token }}
+runs:
+  using: node16
+  main: dist/index.js
+branding:
+  icon: 'terminal'
+  color: 'purple'
