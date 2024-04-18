@@ -25,7 +25,7 @@ jobs:
         terragrunt_version: [0.35.8, latest]
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Setup terragrunt
         uses: ./
