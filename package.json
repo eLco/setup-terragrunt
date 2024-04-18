@@ -1,6 +1,6 @@
 {
   "name": "setup-terragrunt",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Setup Terragrunt CLI for GitHub Actions",
   "main": "index.js",
   "scripts": {
